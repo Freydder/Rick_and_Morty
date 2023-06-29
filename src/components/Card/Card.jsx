@@ -11,7 +11,7 @@ export function Card(props) {
     props.myFavorites &&
     props.myFavorites.forEach((fav) => {
       if (fav.id === props.id) {
-        setIsFav(true);
+        setIsFav(true); 
       }
     });
   }, [props.myFavorites]);
