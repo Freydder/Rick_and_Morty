@@ -1,0 +1,28 @@
+nav {
+    background-color: rgba(34, 191, 191, 0.233);
+    border-radius: 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    margin-top: -5px;    
+}
+
+nav img {
+    filter: hue-rotate(100deg);
+    border-radius: 50px;
+    width: 100px;
+}
+
+.links {
+    background-color: rgba(34, 191, 191, 0.233);
+    border-radius: 10px ;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    margin-top: -5px; 
+}
