@@ -27,6 +27,8 @@ export function Card(props) {
         species: props.species,
         gender: props.gender,
         image: props.image,
+        status: props.status,
+        origin: props.origin,
         id: props.id,
       });
     }
@@ -50,6 +52,7 @@ export function Card(props) {
       </Link>
       <h3 className={style.h3}>{props.species}</h3>
       <h3 className={style.h3}>{props.gender}</h3>
+      <h3 className={style.h3}>{props.id}</h3>
       <img className={style.img} src={props.image} alt="" />
     </div>
   );
@@ -58,7 +61,7 @@ export function Card(props) {
 
 function mapStateToProps (state) {
   return {
-     myFavorites: state.myFavorites,
+     allCharacter: state.allCharacter,
   };
 }
 function mapDispatchToProps(dispatch) {
