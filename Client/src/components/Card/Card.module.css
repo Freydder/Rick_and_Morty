@@ -1,0 +1,35 @@
+.h2 {
+    text-align: center;    
+    color: aqua;
+}
+
+.h3 {
+    text-align: center;
+    color: aquamarine;
+}
+
+.button {
+    padding: 10px;
+    margin: 0 5px;
+    background: none;
+    background-color: rgba(34, 191, 191, 0.233);
+    font-weight: bold;
+    color: azure;
+    border-radius: 10px ;
+    border: 0;
+    cursor: pointer;
+}
+
+.img {
+    background: lightblue;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+}
+ 
+.container {
+    background-color: darkslategrey;
+    width: fit-content;
+    padding: 1em;
+}
+
